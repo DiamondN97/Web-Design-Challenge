@@ -14,10 +14,11 @@
 
 </head>
 
-<body>
-    <!-- <nav class="navbar navbar-light" style="background-color: #e3f2fd;"></nav> -->
+<body style="background-color:rgb(211, 211, 211);>
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;"></nav>
     <nav class="navbar navbar.bg-#6cc3d5  navbar-expand-md navbar-dark bg-primary">
-    <h2><a class="navbar-brand" href="file:///C:/Users/diamo/Bootcamp/GitLab/Web-Design-Challenge/website.html#">Latitude Analysis</a></h2>
+
+    <h2><a class="navbar-brand" href="file:///C:/Users/diamo/Bootcamp/GitLab/Web-Design-Challenge/home.html#">Latitude Analysis</a></h2>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -25,24 +26,111 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="">Home</a>
+              <a class="nav-link" href="file:///C:/Users/diamo/Bootcamp/GitLab/Web-Design-Challenge/home.html#">Home</a>
             </li>
+
             <li class="nav-item">
-              <a class="nav-link" href="#">Visualization</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Comparisons</a>
+              <a class="nav-link" href="file:///C:/Users/diamo/Bootcamp/GitLab/Web-Design-Challenge/comparisons.html#">Comparisons</a>
             </li>
             <li class="nav-item dropdown">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Data</a>
+                    <a class="nav-link" href="file:///C:/Users/diamo/Bootcamp/GitLab/Web-Design-Challenge/data.html#">Data</a>
                   </li>
             </li>
         
         </div>
       </nav>
+
+<div class="container">
+    <!-- <div class="background"> -->
+        <div class="layer">
+           <div class="row">
+            <div class="col-8">
+                <div class="box" >
+                    
+                    
+                    <br>
+               </div>
+                </div>
+ 
+        <div class="col-12">
+        <div class="box" >
+            <h1 class="text-center">What's the weather like?</h1>
+            <div class="img-fluid">
+            <div  class="text-center">
+          <img  src="Images/map.jpg" width="1000" height="400"  alt="Gall-Peters Projection">
+             <h5 class="text-center">How does the weather change relative to the equator? That is the question I was tasked to answer by using a dataset of over 500 cities. I created several graphs depicting the correlation between specific measures of weather in the cities compared to the cities' latitude.</h5>
+           
+              <hr>
+            </div>
+            </div>
+            </div>
+            </div>
+
+
+    <div class="col-12" >
+        <div class="box" >
+            <h2 class="text-center">Visualizations</h2>
+            <h5 class= "text-center"><em>Click on any graph to see more information.</em></h5>
+        <br>   
+        </div>
+        </div>
+    
+    <div class="container-fluid"> <!-- this makes your images scale constantly, between breakpoints as welll. removing -fluid makes then jump in size at breakpoints -->
+        <div class="row">
+      
+        <div class="col-md-3 col-sm-4 col-xs-6">
+          <div class="thumbnail_container">
+            <div class="thumbnail">
+                <figure>
+                    <a href="file:///C:/Users/diamo/Bootcamp/GitLab/Web-Design-Challenge/comparisons.html#temperature">
+                        <img id="landing-viz" src="Images/Fig1.png"  alt="Latitude versus temperature">
+                        
+                        <h6 class="text-center"><u>Temperautre</u></h6>
+                        
+                    </a>
+                </figure>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6">
+          <div class="thumbnail_container">
+            <div class="thumbnail">
+                <figure>
+                    <a href="file:///C:/Users/diamo/Bootcamp/GitLab/Web-Design-Challenge/comparisons.html#humidity">
+                        <img id="landing-viz" src="Images/Fig2.png"  alt="Latitude versus humidity">
+                        <h6 class="text-center"><u>Humidity</u></h6>
+                    </a>
+                </figure>
+            </div>
+          </div>  
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6">
+          <div class="thumbnail_container">
+            <div class="thumbnail">
+                <figure>
+                    <a href="file:///C:/Users/diamo/Bootcamp/GitLab/Web-Design-Challenge/comparisons.html#cloudiness">
+                        <img id="landing-viz" src="Images/Fig3.png"   alt="Latitude versus cloduiness">
+                        <h6 class="text-center" ><u>Cloudiness</u></h6>
+                    </a>
+                </figure>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6">
+          <div class="thumbnail_container">
+            <div class="thumbnail">
+                <figure>
+                    <a href="file:///C:/Users/diamo/Bootcamp/GitLab/Web-Design-Challenge/comparisons.html#wind">
+                        <img id="landing-viz" src="Images/Fig4.png"   alt="Latitude versus wind speed">
+                        <h6 class="text-center" ><u>Windiness</u></h6>
+                    </a>
+                </figure>
+            </div>
+          </div>  
+      </div>
+</div>
+</div>
+</div> 
 </body>
 
-
-
-</html>
