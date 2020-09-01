@@ -44,62 +44,85 @@
 <div class="container">
     <!-- <div class="background"> -->
         <div class="layer">
+           <div class="row">
+            <div class="col-8">
+                <div class="box" >
+                    <h1>What's the weather like?</h1>
+                    
+                    <br>
+               </div>
+                </div>
+ 
         
-    <div class="row">
-        <div class = "col-12">
-        <h1 class="text-center;">What's the weather like?</h1>
-        <!-- <h3><blockquote> test writing </blockquote></h3> -->
-        <br/>
-        <div class="img container">
-          <!-- <img  src="Images/heatmap.png"  alt="Heatmap of Humidity Worldwide"> -->
-       <h3></h3>
-        </div>
-    </div>
+        <div class="img-fluid">
+            <div class ="col-12">
+          <img  src="Images/map.jpg" width="1000" height="400"  alt="Gall-Peters Projection">
+             <h4>test wording</h5>
+           
+              <hr>
+            </div>
+            </div>
     <div class="col-8">
         <div class="box" >
             <h2>Visualizations</h2>
             <hr>
-
-
-            <div class="row">
-                <div class="col-12">
-                    <figure>
-                        <a href="file:///C:/Users/diamo/Bootcamp/GitLab/Web-Design-Challenge/comparisons.html#temperature">
-                            <img id="landing-viz" src="Images/Fig1.png"  alt="Latitude versus temperature">
-                        </a>
-                    </figure>
-                </div>
-            </br>
-            <div class="col-12">
-                    <figure>
-                        <a href="file:///C:/Users/diamo/Bootcamp/GitLab/Web-Design-Challenge/comparisons.html#humidity">
-                            <img id="landing-viz" src="Images/Fig2.png"  alt="Latitude versus humidity">
-                        </a>
-                    </figure>
-                </div>
-            </br> 
-            <div class="col-12">
-                    <figure>
-                        <a href="file:///C:/Users/diamo/Bootcamp/GitLab/Web-Design-Challenge/comparisons.html#cloudiness">
-                            <img id="landing-viz" src="Images/Fig3.png"  alt="Latitude versus cloduiness">
-                        </a>
-                    </figure>
-                </div>
-            </br>
-                <div class="col-12">
-                    <figure>
-                        <a href="file:///C:/Users/diamo/Bootcamp/GitLab/Web-Design-Challenge/comparisons.html#wind">
-                            <img id="landing-viz" src="Images/Fig4.png"  alt="Latitude versus wind speed">
-                        </a>
-                    </figure>
-                </div>
-
             </div>
         </div>
-    </div> 
-
+    
+    <div class="container-fluid"> <!-- this makes your images scale constantly, between breakpoints as welll. removing -fluid makes then jump in size at breakpoints -->
+        <div class="row">
+      
+        <div class="col-md-3 col-sm-4 col-xs-6">
+          <div class="thumbnail_container">
+            <div class="thumbnail">
+                <figure>
+                    <a href="file:///C:/Users/diamo/Bootcamp/GitLab/Web-Design-Challenge/comparisons.html#temperature">
+                        <img id="landing-viz" src="Images/Fig1.png"  alt="Latitude versus temperature">
+                        <h6><u>Latitude vs Temperautre</u></h6>
+                    </a>
+                </figure>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6">
+          <div class="thumbnail_container">
+            <div class="thumbnail">
+                <figure>
+                    <a href="file:///C:/Users/diamo/Bootcamp/GitLab/Web-Design-Challenge/comparisons.html#humidity">
+                        <img id="landing-viz" src="Images/Fig2.png"  alt="Latitude versus humidity">
+                        <h6><u>Latitude vs Humidity</u></h6>
+                    </a>
+                </figure>
+            </div>
+          </div>  
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6">
+          <div class="thumbnail_container">
+            <div class="thumbnail">
+                <figure>
+                    <a href="file:///C:/Users/diamo/Bootcamp/GitLab/Web-Design-Challenge/comparisons.html#cloudiness">
+                        <img id="landing-viz" src="Images/Fig3.png"   alt="Latitude versus cloduiness">
+                        <h6><u>Latitude vs Cloudiness</u></h6>
+                    </a>
+                </figure>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6">
+          <div class="thumbnail_container">
+            <div class="thumbnail">
+                <figure>
+                    <a href="file:///C:/Users/diamo/Bootcamp/GitLab/Web-Design-Challenge/comparisons.html#wind">
+                        <img id="landing-viz" src="Images/Fig4.png"   alt="Latitude versus wind speed">
+                        <h6><u>Latitude vs Windiness</u></h6>
+                    </a>
+                </figure>
+            </div>
+          </div>  
+      </div>
 </div>
 </div>
+</div> 
 </body>
 
 <!-- </html> -->
