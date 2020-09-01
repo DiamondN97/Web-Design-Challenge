@@ -163,7 +163,7 @@ tr:nth-of-type(odd) {
   background: var(--primary); 
 }
 th { 
-  background: #007bff; 
+  background: #58bbcf; 
   color: white; 
   font-weight: bold; 
 }
